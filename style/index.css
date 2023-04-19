@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 10px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.logo-principal{
+    height: 150px;
+}
+
+ul {
+    list-style: none;
+}
+
+.first-nav-conteiner, .second-nav-conteiner {
+    padding: 20px;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.first-nav-conteiner ul, .second-nav-conteiner ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 3rem;
+}
+
+.second-nav-conteiner {
+    margin: 10px auto;
+    justify-content: center;
+}
+
+li:hover{
+    font-weight: bold;
+
+}
+
+.category img {
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    border: black solid 1px;
+}
+
+.category {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    width: 90%;
+    margin-left: 40%;
+    padding: 25px;    
+}
+
+.inf-conteiner{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+
+}
+
+.inf-conteiner img{
+    width: 450px;
+    height: 350px;
+    border-radius: 8%;
+    border: black solid 5px;
+}
+
+.inf2-conteiner h3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+    height: 100px;
+    
+}
+
+.inf2-conteiner p {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+    height: 200px;
+}
+
+.inf2-conteiner a {
+    display: flex;
+    margin-left: 700px;
+    margin-bottom: 0
+}
+
+.content-section {
+    border-bottom: rgba(18, 35, 187, 0.199) solid 1px;
+    margin-top: 2px;
+    width: 1400px;
+    margin: 10px;
+}
+
+#logotop {
+    margin-left: 40%;
+}
+
+.top10 {
+    width: 150px;
+    margin: 0 auto;
+    display: inline;
+    align-items:center;
+    justify-content: space-between;
+}
+
+.top10 img {
+    width: 150px;
+    height: 100px;
+    border-radius: 8%;
+}
+
+.top10-1 {
+    width: 159px;
+}
+
+.inf-logo {
+    width: 150px;
+    margin-left: 1%;
+    text-align: center;
+    padding: 3px;
+}
+
+.top10-2 {
+    width: 150px;
+    margin-left: 20%;
+    margin-top: -19%;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+}
+
+.inf-logo2 {
+    width: 150px;
+    margin-left: 100%;
+    text-align: center;
+    padding: 3px;
+}
