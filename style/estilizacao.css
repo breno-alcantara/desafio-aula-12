@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+.nav-conteiner-header{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    width: 100%;
+    height: 150px;
+    background-color: rgb(41, 41, 240);
+    background-image: linear-gradient(to right, white, rgb(41, 41, 240));
+}
+
+#logo-principal-header {
+    width: 150px;
+    height: 100px;
+}
+
+.list-header ul{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    gap: 50px;
+    margin-right: 5%;
+}
+
+.list-header ul li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 40px;
+    background-color: white;
+    font-size:medium;
+    font-weight: bolder;
+    border-radius: 8%;
+    border: gray solid 3px;
+    box-shadow:inset 2px -3px 4px 0px gray;
+}
+
+.list-header ul li:hover{
+    font-size: large;
+ 
+}
+
+.list-header ul li:nth-child(2){
+    width: 180px;
+    height: 56px;
+    font-size: larger;
+}
+
+/*body*/
+
+.exercicio {
+margin-left: 10%;
+margin-right: 10%;
+padding: 10px;
+}
+
+h1 {
+    color: navy;
+    font-size: 50px;
+    font-weight: bolder;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+.desafio1 {
+    color: red;
+    padding: 10px;
+    font-size: 25px;
+}
+
+
+#lista1 {
+    list-style: georgian;
+    margin: 50px;
+    font-size: 30px;
+    
+}
+
+#lista2 {
+    list-style: square;
+    margin: 50px; 
+    font-size: 30px;
+}

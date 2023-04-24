@@ -3,10 +3,7 @@
     padding: 0;
     font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
-}
-
-body{
-    padding: 10px;
+    text-decoration: none;
 }
 
 a{
@@ -37,51 +34,56 @@ ul {
 }
 
 .second-nav-conteiner {
-    margin: 10px auto;
     justify-content: center;
     padding-bottom: 2%;
     border-bottom: rgba(18, 35, 187, 0.199) solid 1px;
 }
 
 li:hover{
-    font-size:120%;
+    font-size:105%;
     font-weight: bold;
     color: blue;
 
 }
 
-.category img {
-    width: 82px;
-    height: 82px;
-    border-radius: 50%;
-    border: black solid 1px;
-}
-
 .category {
     display: flex;
-    gap: 30px;
     align-items: center;
-    width: 400px;
+    height: 40px;
+    margin-top: 1%;
+    background-image: linear-gradient(to right, white, blue 400px, white 800px);
+    background-size: 800px 100%;
+    background-position: 50% 100%;
+    background-repeat: no-repeat;
+}
+
+.category img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
     margin-left: 40%;
-    padding: 20px; 
-    -webkit-text-stroke-width: 0.5px;
-    -webkit-text-stroke-color: #0d0ad6;
+    border: white solid 10px;
+}
+
+.category h1 {
+    margin-left: 20px;
+    color: rgb(223, 219, 219);;
 }
 
 .inf-conteiner{
     width: 90%;
-    margin: 0 auto;
+    margin-left: 120px;
+    margin-top: 50px;
+    margin-bottom: 50px;
     display: flex;
     align-items:center;
     justify-content: space-between;
-
 }
 
 .inf-conteiner img{
     width: 450px;
     height: 350px;
     border-radius: 8%;
-    border: black solid 5px;
 }
 
 .inf2-conteiner{
@@ -122,23 +124,25 @@ li:hover{
     border-bottom: rgba(18, 35, 187, 0.199) solid 1px;
     margin-top: 2px;
     width: 1400px;
-    margin: 10px;
+    margin: 0 auto;  
 }
 
 #logotop img{
     margin-top: 3%;
     margin-left: 45%;
+    margin-bottom: 3%;
     width: 150px;
     height: 100px;
 }
 
 .top10 {
-    width: 90%;
-    margin: 0 auto;
+    width: 30%;
+    margin-left: 130px;
     display: flex;
-    align-items:center;
     justify-content: space-between;
-    padding: 30px;
+    align-items:center;
+    gap: 30px;
+    margin-bottom: 1px;
 }
 
 .top10 img {
@@ -146,20 +150,94 @@ li:hover{
     height: 100px;
     border-radius: 8%;
     margin-top: 10px;
-    border: #0d0ad6 solid 1px;
 }
 
 
 .inf-logo {
     width: 150px;
-    height: 80px;
-    margin-left: 1%;
+    height: 85px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
     text-align: center;
-    padding: 3px;
+    gap: 30px;
 }
 
 .inf-logo h5 a:hover{
     font-size:larger;
     font-weight: bold;
     color: blue;
+}
+
+.top10-1 {
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 0px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.top10-1 img {
+    width: 160px;
+    height: 110px;
+    border-radius: 8%;
+}
+
+.nav-conteiner-footer{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    width: 100%;
+    height: 150px;
+    margin-right: 0;
+    margin-top: 50px;
+    background-color: rgb(41, 41, 240);
+    background-image: linear-gradient(to right, white, rgb(41, 41, 240));
+}
+
+#logo-principal-footer {
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    width: 150px;
+    height: 100px;
+}
+
+.list-footer ul{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    gap: 50px;
+    margin-right: 5%;
+}
+
+.list-footer ul li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 180px;
+    height: 50px;
+    background-color: rgb(223, 219, 219);
+    font-size:medium;
+    font-weight: bolder;
+    border-radius: 8%;
+    border: gray solid 3px;
+    box-shadow:inset 4px -2px 5px 1px navy;
+}
+
+.list-footer ul li:hover{
+    font-size: large;
+}
+
+
+.final {
+
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: navy;
+    font-weight: bolder;
+    margin-top: -35px;
+    margin-left: 800px;
+
 }

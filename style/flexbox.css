@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+.nav-conteiner-header{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    width: 100%;
+    height: 150px;
+    background-color: rgb(41, 41, 240);
+    background-image: linear-gradient(to right, white, rgb(41, 41, 240));
+}
+
+#logo-principal-header {
+    width: 150px;
+    height: 100px;
+}
+
+.list-header ul{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    gap: 50px;
+    margin-right: 5%;
+}
+
+.list-header ul li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 40px;
+    background-color: white;
+    font-size:medium;
+    font-weight: bolder;
+    border-radius: 8%;
+    border: gray solid 3px;
+    box-shadow:inset 2px -3px 4px 0px gray;
+}
+
+.list-header ul li:hover{
+    font-size: large;
+}
+
+.list-header ul li:nth-child(6){
+    width: 180px;
+    height: 56px;
+    font-size: larger;
+}
+
+/*body*/
+
+.main-conteiner{
+    display:flex;
+}
+
+.lista {
+    display: flex;
+    text-align: center;    
+    flex-direction: column-reverse;
+    margin-top: 40px;
+    width: 200px;
+    margin-left: 15%;
+
+
+}
+
+.lista .box1:first-child {
+    margin-bottom: 0;
+}
+
+.box1,
+.box2,
+.box3,
+.box4,
+.box5  {
+    text-align: center;
+    border: black dotted 5px;
+    width: 80%;
+    margin: 0 auto;
+    padding: 12px;
+    font-size: 50px;
+    font-weight: bolder;
+    margin-bottom: 30px;
+    border: 5px solid black;
+}
+
+.box1 {
+	background-color: #03ff25;
+}
+
+.box2 {
+	background-color: #018bfc;
+}
+
+.box3 {
+	background-color: #9d49b3;
+}
+
+.box4 {
+	background-color: #ffd000;
+}
+
+.box5 {
+	background-color: #f70000;
+}
+
+.main-conteiner .lista .box:nth-last-child(5){
+    margin-bottom: 0;
+}
+
+.main-conteiner .lista .box:nth-last-child(1){
+    margin-bottom: 0;
+}
+
+.lista2 {
+    display: flex;
+    margin-top: 40px;
+    margin-left: 10%;
+    width: 750px;
+    height: 100%;
+    border: 5px solid purple;
+
+}
+
+.navegacao {
+	height: 539px;
+	width: 150px;
+	padding: 16px;
+	margin-right: -17px;
+	color: #000;
+	background-color: #061ef5;
+}
+
+.cabecalho,
+.rodape {
+	width: 600px;
+	height: 100px;
+	padding: 1rem;
+	color: #000;
+	background-color: yellow;
+}
+
+.conteudo-container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	color: #000;
+}
+
+.conteudo {
+	width: 450px;
+	height: 275px;
+	padding: 1rem;
+	background-color: #19fa05;
+}
+
+.lateral {
+	padding: 1rem;
+	width: 118px;
+	height: 275px;
+	background-color: #ff0000;
+}

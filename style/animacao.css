@@ -1,0 +1,231 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+.nav-conteiner-header{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    width: 100%;
+    height: 150px;
+    background-color: rgb(41, 41, 240);
+    background-image: linear-gradient(to right, white, rgb(41, 41, 240));
+}
+
+#logo-principal-header {
+    width: 150px;
+    height: 100px;
+}
+
+.list-header ul{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    gap: 50px;
+    margin-right: 5%;
+}
+
+.list-header ul li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 40px;
+    background-color: white;
+    font-size:medium;
+    font-weight: bolder;
+    border-radius: 8%;
+    border: gray solid 3px;
+    box-shadow:inset 2px -3px 4px 0px gray;
+}
+
+.list-header ul li:hover{
+    font-size: large;
+}
+
+.list-header ul li:nth-child(5){
+    width: 180px;
+    height: 56px;
+    font-size: larger;
+}
+
+/*body*/
+
+.main-conteiner {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    margin-top: 50px;
+    gap: 60px;
+}
+
+.desafio {
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    width: 80%;
+    height: 150px;
+    margin: 0 auto;
+    border: 5px dashed black;
+}
+
+.top,
+.right,
+.bottom,
+.left,
+.degree,
+.radial,
+.translate,
+.rotate,
+.rotate-x,
+.rotate-y,
+.rotate-z {
+    width: 120px;
+	height: 120px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: white;
+	border-radius: 100%;
+    font-weight: bolder;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+.bottom {
+    background: linear-gradient(
+        to bottom,
+        rgb(2, 6, 245) 0%,
+        rgb(243, 24, 8) 100%
+    );
+}
+
+.right {
+    background: linear-gradient(
+        to right,
+        rgb(2, 6, 245) 0%,
+        rgb(243, 24, 8) 100%
+        );
+    }
+    
+    .left {
+    background: linear-gradient(
+        to left,
+        rgb(2, 6, 245) 0%,
+        rgb(243, 24, 8) 100%
+    );
+    }
+
+.top {
+    background: linear-gradient(
+		to top,
+		rgb(2, 6, 245) 0%,
+		rgb(243, 24, 8) 100%
+	);
+}
+    
+.degree {
+	background: linear-gradient(
+		147deg,
+		rgb(2, 6, 245) 0%,
+		rgb(243, 24, 8) 100%
+	);
+}
+
+.radial {
+	background: radial-gradient(
+		circle,
+		rgb(2, 6, 245) 0%,
+		rgb(243, 24, 8) 100%
+	);
+}
+
+.desafio1 {
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    width: 80%;
+    height: 150px;
+    margin: 0 auto;
+    border: 5px dashed black;
+
+}
+
+.translate,
+.rotate,
+.rotate-x,
+.rotate-y,
+.rotate-z {
+	background-color: green;
+}
+
+.translate {
+	transform: translate(80%, 50%);
+}
+
+.rotate {
+	transform: rotate(270deg);
+}
+
+.rotate-x {
+	transform: rotateX(180deg);
+}
+
+.rotate-y {
+	transform: rotateY(180deg);
+}
+
+.rotate-z {
+	transform: rotateZ(45deg);
+}
+
+.desafio2 {
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    width: 80%;
+    height: 150px;
+    margin: 0 auto;
+    border: 5px dashed black;
+}
+
+.transition1,
+.transition2,
+.transition3,
+.transition4,
+.transition5 {
+	width: 120px;
+	height: 120px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: white;
+	background-color: #0e0aee;
+	transition: all 0.3s ease-in-out;
+    border-radius: 100%;
+    font-weight: bolder;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+.transition1:hover {
+	transform: translateY(-50%);
+}
+
+.transition2:hover {
+	transform: scale(150%);
+}
+
+.transition3:hover {
+    transform: rotate(360deg);
+}
+
+.transition4:hover {
+	transform: scale(40%);
+}
+
+.transition5:hover {
+	background-color: rgb(255, 0, 0);
+}
